@@ -12,7 +12,7 @@ const InputRadio = ({ id, name, curentPosition, positionHandler }) => {
                 checked={curentPosition === id}
                 onChange={(e) => positionHandler(e)}
             />
-            <label>{name}</label>
+            <label htmlFor={id}>{name}</label>
         </>
     )
 }
