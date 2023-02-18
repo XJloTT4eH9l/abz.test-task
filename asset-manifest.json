@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abz.test-task/static/css/main.b2363476.css",
+    "main.js": "/abz.test-task/static/js/main.a1bc70b2.js",
+    "static/media/hero__bg.jpeg": "/abz.test-task/static/media/hero__bg.be7665f876bbd9138501.jpeg",
+    "static/media/Nunito-Regular.svg": "/abz.test-task/static/media/Nunito-Regular.fc4f3445536c601cabeb.svg",
+    "static/media/Nunito-Regular.eot": "/abz.test-task/static/media/Nunito-Regular.278b0ebf476228520147.eot",
+    "static/media/Nunito-Regular.ttf": "/abz.test-task/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
+    "static/media/Nunito-Regular.woff": "/abz.test-task/static/media/Nunito-Regular.9144703ca1c8225d762c.woff",
+    "static/media/success-image.svg": "/abz.test-task/static/media/success-image.2d0df28172978cdcbbc8a654046ed558.svg",
+    "static/media/logo.svg": "/abz.test-task/static/media/logo.8bb55362d01d55393ccc5476d96f0c14.svg",
+    "static/media/photo-cover.svg": "/abz.test-task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
+    "static/media/Preloader.svg": "/abz.test-task/static/media/Preloader.0aaf07f39acaa32ce036564ce35dba88.svg",
+    "index.html": "/abz.test-task/index.html",
+    "main.b2363476.css.map": "/abz.test-task/static/css/main.b2363476.css.map",
+    "main.a1bc70b2.js.map": "/abz.test-task/static/js/main.a1bc70b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2363476.css",
+    "static/js/main.a1bc70b2.js"
+  ]
+}
