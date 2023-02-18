@@ -1,0 +1,56 @@
+@import '../../styles/variables.scss';
+
+.form {
+    margin-bottom: 20px;
+    &__container {
+        position: relative;
+        margin-bottom: 50px;
+    }
+    &__container:last-child {
+        margin-bottom: 0;
+    }
+    &__error {
+        position: absolute;
+        left: 16px;
+        bottom: -18px;
+        font-size: 12px;
+        line-height: 1.16;
+        color: $color-red;
+    }
+    &__notification {
+        font-size: 12px;
+        color: $color-input-gray;
+        margin-left: 16px;
+        margin-top: 4px;
+    }
+    &__submit {
+        width: 100px;
+        padding: 4px 0;
+        display: block;
+        margin: 0 auto;
+        background-color: $color-yellow;
+        border-radius: $border-radius;
+        font-size: $font-size-default;
+        line-height: $line-height-default;
+        transition: background-color .3s linear;
+        cursor: pointer;
+        &:hover {
+            background-color: $color-yellow-hover;
+        }
+        &:disabled {
+            color: $color-white;
+            background-color: $color-darkGray;
+            cursor: default;
+        }
+    }
+    &__success-img {
+        width: 328px;
+        height: 290px;
+    }
+    @media screen and (max-width: 460px) {
+        &__success-img {
+            width: 280px;
+            height: auto;
+        }  
+    }
+}

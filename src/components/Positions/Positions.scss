@@ -1,0 +1,10 @@
+.positions {
+    margin-bottom: 47px;
+    &__title {
+        margin-bottom: 11px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+}

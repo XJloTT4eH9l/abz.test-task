@@ -1,0 +1,19 @@
+@import '../../../styles/variables.scss';
+
+.input-text {
+    width: 380px;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: $color-input-border;
+    border-radius: 4px;
+    transition: border-color 0.3s linear;
+    &__error {
+        border-color: $color-red;
+    }
+    @media screen and (max-width: 460px) {
+        & {
+            max-width: 328px;
+        }  
+    }
+}

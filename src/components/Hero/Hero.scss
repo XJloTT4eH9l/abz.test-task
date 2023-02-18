@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.hero {
+    height: 650px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/hero__bg.jpeg');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+    }
+    &__content {
+        max-width: 380px;
+        text-align: center;
+    }
+    &__title {
+        color: $color-white;
+        margin-bottom: 21px;
+    }
+    &__text {
+        color: $color-white;
+        margin-bottom: 32px;
+    }
+    @media screen and (max-width: 768px) {
+        &{
+            height: 500px;
+        }
+        &__inner {
+            height: 500px;
+        }
+    }
+}
