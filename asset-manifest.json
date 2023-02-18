@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/abz.test-task/static/css/main.0be6d86d.css",
-    "main.js": "/abz.test-task/static/js/main.75309473.js",
-    "static/media/hero__bg.jpeg": "/abz.test-task/static/media/hero__bg.dfbdc7daff6a0342533c.jpeg",
+    "main.css": "/abz.test-task/static/css/main.ca8307b0.css",
+    "main.js": "/abz.test-task/static/js/main.09b4e03e.js",
+    "static/media/hero__bg.webp": "/abz.test-task/static/media/hero__bg.d46b119d82db9e70bd96.webp",
     "static/media/Nunito-Regular.svg": "/abz.test-task/static/media/Nunito-Regular.fc4f3445536c601cabeb.svg",
     "static/media/Nunito-Regular.eot": "/abz.test-task/static/media/Nunito-Regular.278b0ebf476228520147.eot",
     "static/media/Nunito-Regular.ttf": "/abz.test-task/static/media/Nunito-Regular.99a3b019e7727ac19479.ttf",
@@ -12,11 +12,11 @@
     "static/media/photo-cover.svg": "/abz.test-task/static/media/photo-cover.86d65a50ce42b9596ca16e21c9fe0ee0.svg",
     "static/media/Preloader.svg": "/abz.test-task/static/media/Preloader.0aaf07f39acaa32ce036564ce35dba88.svg",
     "index.html": "/abz.test-task/index.html",
-    "main.0be6d86d.css.map": "/abz.test-task/static/css/main.0be6d86d.css.map",
-    "main.75309473.js.map": "/abz.test-task/static/js/main.75309473.js.map"
+    "main.ca8307b0.css.map": "/abz.test-task/static/css/main.ca8307b0.css.map",
+    "main.09b4e03e.js.map": "/abz.test-task/static/js/main.09b4e03e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0be6d86d.css",
-    "static/js/main.75309473.js"
+    "static/css/main.ca8307b0.css",
+    "static/js/main.09b4e03e.js"
   ]
 }
