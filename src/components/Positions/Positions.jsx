@@ -4,8 +4,9 @@ import './Positions.scss'
 
 const Positions = ({ title, positions, curentPosition, positionHandler }) => {
     return (
-        <ul className="positions">
+        <>
             <h3 className='positions__title'>{title}</h3>
+            <ul className="positions">
             {positions.map(({id, name}) => (
                 <li className='positions__item' key={id}>
                     <InputRadio
@@ -17,6 +18,7 @@ const Positions = ({ title, positions, curentPosition, positionHandler }) => {
                 </li>
             ))}
         </ul>
+        </>
     )
 }
 

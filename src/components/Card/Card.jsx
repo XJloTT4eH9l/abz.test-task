@@ -13,7 +13,7 @@ const Card = ({ id, name, photo, position, email, phone }) => {
     
     return (
         <li className='card' key={id}>
-            <img className='card__img' src={photo} alt={name} />
+            <img className='card__img' src={photo ? photo : photoCover} alt={name} />
             <h3 className="card__name">{trimInfo(name)}</h3>
             <p className="text">{trimInfo(position)}</p>
             <a href={`mailto:${email}`} className="card__link">{trimInfo(email)}</a>
